@@ -28,6 +28,9 @@ features:
 #    - 'This problem is linearized to \(E(y_i) = N(\alpha_i)\). Using the known degrees of these polynomials \(deg_q f \leq k-1, deg_q E \leq t\), this problem becomes a set of linear equations which can be solved for \(E\) and \(f\).'
 #    - 'Finally we perform \(E(y_i - f_i(\alpha_i)) = 0\) to solve for the error vector.'
 
+realizations:
+  - 'Code used in digital watermarking. The rank code provides efficient correction against luminance tampering and image-slicing distortion due to the consistency of the rank against alterations such as column swapping \cite{doi:10.1109/ICASSP.2018.8462647}.' 
+
 notes:
   - 'See Ref. \cite{arXiv:1410.1333} for a discussion of MacWilliams identities and the relationship between rank metric and Gabidulin codes.'
 
